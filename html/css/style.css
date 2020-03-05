@@ -1,5 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Trade+Winds&display=swap");
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #20002c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #cbb4d4,
+    #935fa7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #cbb4d4,
+    #935fa7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#title {
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px 10px;
+  font-family: "Trade Winds", cursive;
+  color: aliceblue;
+}
 #image {
   max-width: 100%;
   display: block;
+  width: 500px;
+  text-align: center;
   margin: auto;
+  padding: 20px;
+  border: 3px solid #20002c;
+  background-color: aliceblue;
+}
+#image:hover {
+  animation: border-flicker 2s linear forwards;
+}
+#img-caption {
+  color: #fff;
+  margin: 3px 0px;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+#tribute-info {
+  color: #343a40;
+  padding: 10px;
+  font-size: 1rem;
+}
+#tribute-link {
+  float: right;
+  padding: 10px;
+  background: white;
+  color: #000;
+  border-radius: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@keyframes border-flicker {
+  2% {
+    border: 3px solid rgb(0, 180, 230);
+    box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+      0 0 12px -1px rgb(0, 180, 230) inset;
+  }
+  3% {
+    border: 3px solid rgb(0, 40, 70);
+    box-shadow: none;
+  }
+  5% {
+    border: 3px solid rgb(0, 180, 230);
+    box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+      0 0 12px -1px rgb(0, 180, 230) inset;
+  }
+  6% {
+    border: 3px solid rgb(0, 40, 70);
+    box-shadow: none;
+  }
+  7% {
+    border: 3px solid rgb(0, 180, 230);
+    box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+      0 0 12px -1px rgb(0, 180, 230) inset;
+  }
+  9% {
+    border: 3px solid rgb(0, 40, 70);
+    box-shadow: none;
+  }
+  13% {
+    border: 3px solid rgb(0, 180, 230);
+    box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+      0 0 12px -1px rgb(0, 180, 230) inset;
+  }
+  16% {
+    border: 3px solid rgb(0, 40, 70);
+    box-shadow: none;
+  }
+  18% {
+    border: 3px solid rgb(0, 180, 230);
+    box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+      0 0 12px -1px rgb(0, 180, 230) inset;
+  }
+  22% {
+    border: 3px solid rgb(0, 40, 70);
+    box-shadow: none;
+  }
+  34% {
+    border: 3px solid rgb(0, 180, 230);
+    box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+      0 0 12px -1px rgb(0, 180, 230) inset;
+  }
+  36% {
+    border: 3px solid rgb(0, 40, 70);
+    box-shadow: none;
+  }
+  54% {
+    border: 3px solid rgb(0, 180, 230);
+    box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+      0 0 12px -1px rgb(0, 180, 230) inset;
+  }
+  100% {
+    border: 3px solid rgb(0, 180, 230);
+    box-shadow: 0 0 15px -1px rgb(0, 180, 230),
+      0 0 12px -1px rgb(0, 180, 230) inset;
+  }
 }
