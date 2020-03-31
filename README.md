@@ -44,7 +44,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Content inspired by the original youtube page.
+- Content are taken by the original wikipedia.
 
 ## 📝 License
 
